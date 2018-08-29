@@ -1,0 +1,67 @@
+.info__item {
+
+    font-family: Trebuchet MS;
+    display: block;
+    margin: 10px;
+    float: left;
+    left: calc(100% / 2.5);
+    position: relative;
+    color: white;
+    font-size: small;
+}
+.info__item--icon {
+    color: #f2cb62;
+}
+
+.header__page {
+  background-image: url("https://cdn.pursuitist.com/wp-content/uploads/2015/12/Agosto-2013-505.jpg");
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  /*! left: 0px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*! max-width: 100vw; */
+}
+
+.page__titel {
+  font-family: Georgia;
+  color: white;
+  position: absolute;
+  left: calc(100%/ 3);
+  top: 35vh;
+  font-size: 101px;
+}
+
+.main__content {
+  position: relative;
+  top: 100vh;
+  max-width: 100vw;
+  margin: 5%;
+}
+body {
+  overflow-x: hidden;
+}
+.reservation__info {
+  position: relative;
+}
+.reservation__content {
+  left: 0px;
+  position: relative;
+  width: 25%;
+}
+.reservation__info--head {
+}
+.reservation__info--title {
+  font-family: Trebuchet MS;
+  font-size: 4vh;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.reservation__info--content {
+}
+.reservation__info--text {
+  font-family: Helvetica;
+  color: #877b7b;
+}

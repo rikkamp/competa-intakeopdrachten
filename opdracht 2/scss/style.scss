@@ -1,0 +1,217 @@
+.info__item {
+
+    font-family: Trebuchet MS;
+    display: block;
+    margin: 10px;
+    float: left;
+    left: calc(100% / 2.5);
+    position: relative;
+    color: white;
+    font-size: small;
+}
+.menu
+{
+  &__content
+  {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 100vh;
+    left: -6%;
+  }
+}
+.reservation{
+  &__pic
+  {
+    &--multiple
+    {
+      position: absolute;
+    left: 30%;
+    top: 90vh;
+    height: 25%;
+    width: 54%;
+    }
+    &--list
+    {
+      position: absolute;
+      height: 100%;
+      width: 92%;
+    }
+    &--big
+    {
+      position: relative;
+      height: 90%;
+      width: 56%;
+      left: 30%;
+    }
+    &--medium
+    {
+      position: absolute;
+      width: 30%;
+      top: 55%;
+      height: 58%;
+      min-height: 58%;
+      max-height: 80%;
+    }
+  }
+  &__picitem
+  {
+    &--big
+    {
+          height: 100%;
+         width: 100%;
+    } 
+    &--medium
+    {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+    }
+  }
+  &__list
+  {
+
+    &--item
+    {
+      display: inline;
+      position: relative;
+      float: left;
+      width: 15%;
+      border: 10px;
+      margin-left: 5%;
+      height: 80%;
+    }
+    &--pic
+    {
+      position: relative;
+      float: left;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &__picture
+  {
+    position: absolute;
+height: 100vh;
+width: 100vw;
+top: 0vh;
+left: 0vw;
+  }
+}
+
+.info__item--icon {
+    color: #f2cb62;
+}
+
+.header__page {
+  background-image: url("https://cdn.pursuitist.com/wp-content/uploads/2015/12/Agosto-2013-505.jpg");
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  left: 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+}
+
+.page__titel {
+  font-family: Georgia;
+  color: white;
+  position: absolute;
+  left: calc(100%/ 3);
+  top: 35vh;
+  font-size: 101px;
+}
+
+.main__content {
+  position: absolute;
+  top: 100vh;
+  max-width: 100vw;
+  width: calc(100% - 5%);
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+body {
+  overflow-x: hidden;
+}
+.reservation__info {
+    position: relative;
+    width: 110%;
+    min-width: 373px;
+}.reservation__content {
+  left: 0px;
+  position: relative;
+  width: 25%;
+  margin: 10%;
+}
+.reservation__info--head {
+}
+.reservation__info--title {
+  font-family: Trebuchet MS;
+  font-size: 4vh;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.reservation__info--content {
+}
+.reservation__info--text {
+  font-family: Helvetica;
+  color: #c6bbbb;
+}
+.reservation__info--button {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/button-background.png");
+    background-size: cover;
+    border: none;
+    background-color: unset;
+    background-position: center;
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+.reservation__info--button:hover {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/button-background.png");
+    background-size: cover;
+    border: 1px;
+    background-color: none;
+    background-position: center;
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    filter: brightness(90%);
+
+}
+.reservation__info--buttonbox {
+    position: absolute;
+    height: 70%;
+    width: 54%;
+    max-height: 90px;
+    max-width: 230px;
+}
+.reservation__pictures {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0vh;
+    left: 0vw;
+}
+.reservation__pic.reservation__pic--big {
+    position: relative;
+    height: 90%;
+    width: 56%;
+    left: 30%;
+}
+
+.reservation__picitem--medium {
+
+}

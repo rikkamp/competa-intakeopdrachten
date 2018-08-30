@@ -18,6 +18,20 @@
   z-index: -1;
   display: block; }
 
+.menu__titel--head {
+  position: absolute;
+  margin: auto;
+  height: 10%;
+  top: 15%;
+  left: calc(100% / 3);
+  width: calc(100% /3); }
+
+.menu__titel--text {
+  position: absolute;
+  text-align: center;
+  font-family: Trebuchet MS;
+  color: white; }
+
 .reservation__pic--multiple {
   position: absolute;
   left: 30%;
@@ -113,7 +127,8 @@ body {
   position: relative;
   width: 25%;
   margin: auto;
-  float: left; }
+  float: left;
+  height: 40%; }
 
 .reservation__content {
   left: 0px;

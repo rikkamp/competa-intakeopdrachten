@@ -12,8 +12,11 @@
   position: absolute;
   height: 100vh;
   width: 100vw;
-  top: 100vh;
-  left: -6%; }
+  top: 90%;
+  left: -3vw;
+  background-image: url(../img/menu_bg.jpg);
+  z-index: -1;
+  display: block; }
 
 .reservation__pic--multiple {
   position: absolute;
@@ -95,24 +98,31 @@
   font-size: 101px; }
 
 .main__content {
-  position: relative;
+  position: absolute;
   top: 100vh;
   max-width: 100vw;
-  margin: 5%; }
+  width: calc(100% - 5%);
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: 144vh; }
 
 body {
   overflow-x: hidden; }
 
 .reservation__info {
   position: relative;
-  width: 110%;
-  min-width: 373px; }
+  width: 25%;
+  margin: auto;
+  float: left; }
 
 .reservation__content {
   left: 0px;
-  position: relative;
-  width: 25%;
-  margin: 10%; }
+  position: absolute;
+  width: 100%;
+  margin: 10%;
+  margin-bottom: 10%;
+  height: 79%;
+  margin-bottom: 0%; }
 
 .reservation__info--title {
   font-family: Trebuchet MS;
@@ -164,8 +174,9 @@ body {
   position: absolute;
   height: 100vh;
   width: 100vw;
-  top: 0vh;
-  left: 0vw; }
+  top: auto;
+  left: 0vw;
+  margin: auto; }
 
 .reservation__pic.reservation__pic--big {
   position: relative;
